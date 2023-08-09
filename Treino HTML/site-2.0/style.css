@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Ubuntu :wght@500 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family= Ubuntu :wght@500 & display=swap');
+
+*{
+    margin: 0PX;
+    padding: 0px;
+}
+:root{
+    --cor1:rgb(25, 143, 240);
+    --cor2:rgb(0, 76, 175);
+    --cor3:rgb(0, 110, 255);
+    --cor4:rgb(76, 0, 255);
+
+    --fonte-principal: 'Ubuntu', sem serifa;
+    
+    --fonte-padrao:'Ubuntu', sem serifa;
+
+
+
+
+
+}
+body{
+
+    background-color: rgb(126, 166, 201);
+}
+
+header{
+    background-color: rgb(255, 0, 0);
+    padding:10px 50px 0px 0px;
+    height: 100px;
+  
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.562);
+
+    
+
+}
+
+header h1{
+    font-family: var(--fonte-principal);
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.521);
+    font-size: 3em;    
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.89);
+    max-width: 1200px;
+    min-width: 320;
+    margin: auto;
+    height: 1000px;
+    padding-top: 50px;
+   
+}
+
+main a {
+    
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid rgb(30, 255, 0);
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+ main  a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition-duration: .75s;
+ }

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Aladin & family= Amita & family= Cinzel:wght@500 & family= DM+Serif+Display & family= Lora:wght@ 500 & family= Roboto+Slab & family= Roboto:ital,wght@1,300 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Aladin & family= Amita & family= Cinzel:wght@500 & family= DM+Serif+Display & family= Lora:wght@ 500 & family= Roboto+Slab & family= Roboto:ital,wght@1,300 & display=swap');
+
+body{
+    background-image:linear-gradient(to left,#88e2d8,#bbfda7);
+    margin: 0px;
+}
+header > h1{
+
+    font-family: 'Aladin', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Amita', cursive;    
+}
+nav{
+    background-color: #cec8c8;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+}
+nav >a{
+    padding-right: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    
+  
+}
+nav > a:hover{
+    color: beige;
+    
+
+}
+main{
+    background-color: #88e2d8;
+}
+section{
+    margin: 15px;
+
+}
+section >p{
+    color: rgb(0, 0, 0);
+    margin: 10px;
+  
+}
+section > h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+section > aside{
+    background-color: #59cefc;
+    padding: 3px;
+    width: 350px;
+}
+
+footer{
+    background-color: black;
+    margin: 3px;
+    padding: 1px;
+}
+footer >p{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
