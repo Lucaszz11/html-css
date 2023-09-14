@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url("imagens/1326329.png");
+    background-size: 1900px;
+    max-width: 900px;
+    max-height: 1000px;
+}
+main{
+    padding: 500px;
+}
+
+
+    
+body h1{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+}
+
+p{
+    color: yellow;
+}
